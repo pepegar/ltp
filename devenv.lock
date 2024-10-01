@@ -3,11 +3,10 @@
     "devenv": {
       "locked": {
         "dir": "src/modules",
-        "lastModified": 1724250466,
+        "lastModified": 1727779147,
         "owner": "cachix",
         "repo": "devenv",
-        "rev": "d177e4fab5060cc7e9ba9444adb15cd79bbdf12a",
-        "treeHash": "597e70ee6c83af091fd0d50939e1601399df5f2d",
+        "rev": "eb86c60fc04a8be6a544b2647cc0ca8dc611533e",
         "type": "github"
       },
       "original": {
@@ -24,7 +23,6 @@
         "owner": "edolstra",
         "repo": "flake-compat",
         "rev": "0f9255e01c2351cc7d116c072cb317785dd33b33",
-        "treeHash": "2addb7b71a20a25ea74feeaf5c2f6a6b30898ecb",
         "type": "github"
       },
       "original": {
@@ -45,7 +43,6 @@
         "owner": "hercules-ci",
         "repo": "gitignore.nix",
         "rev": "637db329424fd7e46cf4185293b9cc8c88c95394",
-        "treeHash": "ca14199cabdfe1a06a7b1654c76ed49100a689f9",
         "type": "github"
       },
       "original": {
@@ -60,7 +57,6 @@
         "owner": "cachix",
         "repo": "devenv-nixpkgs",
         "rev": "4267e705586473d3e5c8d50299e71503f16a6fb6",
-        "treeHash": "6d9f1f7ca0faf1bc2eeb397c78a49623260d3412",
         "type": "github"
       },
       "original": {
@@ -72,11 +68,10 @@
     },
     "nixpkgs-stable": {
       "locked": {
-        "lastModified": 1724098845,
+        "lastModified": 1727672256,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "f1bad50880bae73ff2d82fafc22010b4fc097a9c",
-        "treeHash": "c217afffc0b4aa4caf4533a68d4b8a2f9eff6e07",
+        "rev": "1719f27dd95fd4206afb9cec9f415b539978827e",
         "type": "github"
       },
       "original": {
@@ -96,11 +91,10 @@
         "nixpkgs-stable": "nixpkgs-stable"
       },
       "locked": {
-        "lastModified": 1724227338,
+        "lastModified": 1727805723,
         "owner": "cachix",
         "repo": "pre-commit-hooks.nix",
-        "rev": "6cedaa7c1b4f82a266e5d30f212273e60d62cb0d",
-        "treeHash": "698918d3a04360f1dfd19164903511a167368ec1",
+        "rev": "2f5ae3fc91db865eff2c5a418da85a0fbe6238a3",
         "type": "github"
       },
       "original": {
@@ -113,7 +107,282 @@
       "inputs": {
         "devenv": "devenv",
         "nixpkgs": "nixpkgs",
-        "pre-commit-hooks": "pre-commit-hooks"
+        "pre-commit-hooks": "pre-commit-hooks",
+        "tree-sitter-c": "tree-sitter-c",
+        "tree-sitter-cpp": "tree-sitter-cpp",
+        "tree-sitter-cuda": "tree-sitter-cuda",
+        "tree-sitter-elixir": "tree-sitter-elixir",
+        "tree-sitter-elm": "tree-sitter-elm",
+        "tree-sitter-go": "tree-sitter-go",
+        "tree-sitter-haskell": "tree-sitter-haskell",
+        "tree-sitter-java": "tree-sitter-java",
+        "tree-sitter-javascript": "tree-sitter-javascript",
+        "tree-sitter-markdown": "tree-sitter-markdown",
+        "tree-sitter-nix": "tree-sitter-nix",
+        "tree-sitter-php": "tree-sitter-php",
+        "tree-sitter-python": "tree-sitter-python",
+        "tree-sitter-ruby": "tree-sitter-ruby",
+        "tree-sitter-rust": "tree-sitter-rust",
+        "tree-sitter-scss": "tree-sitter-scss",
+        "tree-sitter-typescript": "tree-sitter-typescript"
+      }
+    },
+    "tree-sitter-c": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727053873,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-c",
+        "rev": "f4c21152f1952a99f4744e8c41d3ffb8038ae78c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-c",
+        "type": "github"
+      }
+    },
+    "tree-sitter-cpp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727054620,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-cpp",
+        "rev": "30d2fa385735378388a55917e2910965fce19748",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-cpp",
+        "type": "github"
+      }
+    },
+    "tree-sitter-cuda": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690137001,
+        "owner": "theHamsta",
+        "repo": "tree-sitter-cuda",
+        "rev": "a07b5ccb2c1e328ef424d4d1ab94c881e2aed2c3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "theHamsta",
+        "ref": "v0.20.3",
+        "repo": "tree-sitter-cuda",
+        "type": "github"
+      }
+    },
+    "tree-sitter-elixir": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727514363,
+        "owner": "elixir-lang",
+        "repo": "tree-sitter-elixir",
+        "rev": "ef124b83a3f3572b0af23db4efae3f8de06a15e1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "elixir-lang",
+        "ref": "main",
+        "repo": "tree-sitter-elixir",
+        "type": "github"
+      }
+    },
+    "tree-sitter-elm": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1726788075,
+        "owner": "elm-tooling",
+        "repo": "tree-sitter-elm",
+        "rev": "27f502ed0a1cbd3c5912d284cc7934ee0d4cdddc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "elm-tooling",
+        "ref": "main",
+        "repo": "tree-sitter-elm",
+        "type": "github"
+      }
+    },
+    "tree-sitter-go": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1726596228,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-go",
+        "rev": "ecc20866d1bd4d80f3aef06456ed3014d4d598e6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-go",
+        "type": "github"
+      }
+    },
+    "tree-sitter-haskell": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1725271087,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-haskell",
+        "rev": "558b997049fddcb07fc513528189c57d6129a260",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-haskell",
+        "type": "github"
+      }
+    },
+    "tree-sitter-java": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727723556,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-java",
+        "rev": "490d878cf33b0ad5ae7a7253ff30597a5bdc348e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-java",
+        "type": "github"
+      }
+    },
+    "tree-sitter-javascript": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1725268571,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-javascript",
+        "rev": "b6f0624c1447bc209830b195999b78a56b10a579",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-javascript",
+        "type": "github"
+      }
+    },
+    "tree-sitter-markdown": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727333496,
+        "owner": "tree-sitter-grammars",
+        "repo": "tree-sitter-markdown",
+        "rev": "b7eba93e6a3e588e259e831416ac11abdaa8616a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter-grammars",
+        "repo": "tree-sitter-markdown",
+        "type": "github"
+      }
+    },
+    "tree-sitter-nix": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727813768,
+        "owner": "cstrahan",
+        "repo": "tree-sitter-nix",
+        "rev": "49adb0f7656fe1737bb11aff593692157905d1b1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cstrahan",
+        "repo": "tree-sitter-nix",
+        "type": "github"
+      }
+    },
+    "tree-sitter-php": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727789335,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-php",
+        "rev": "a342f7c0ad1db48afc6d2420cdd87b55b51a0644",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-php",
+        "type": "github"
+      }
+    },
+    "tree-sitter-python": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1725324041,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-python",
+        "rev": "8c65e256f971812276ff2a69a2f515c218ed7f82",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-python",
+        "type": "github"
+      }
+    },
+    "tree-sitter-ruby": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1725261250,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-ruby",
+        "rev": "a66579f70d6f50ffd81a16fc3d3358e2ac173c88",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-ruby",
+        "type": "github"
+      }
+    },
+    "tree-sitter-rust": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1725268661,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-rust",
+        "rev": "6b7d1fc73ded57f73b1619bcf4371618212208b1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-rust",
+        "type": "github"
+      }
+    },
+    "tree-sitter-scss": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1643924901,
+        "owner": "serenadeai",
+        "repo": "tree-sitter-scss",
+        "rev": "c478c6868648eff49eb04a4df90d703dc45b312a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "serenadeai",
+        "repo": "tree-sitter-scss",
+        "type": "github"
+      }
+    },
+    "tree-sitter-typescript": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1725311701,
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-typescript",
+        "rev": "9951831c5f05be434514dce38b30eef213667601",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter",
+        "repo": "tree-sitter-typescript",
+        "type": "github"
       }
     }
   },

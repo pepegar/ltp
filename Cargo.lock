@@ -876,6 +876,7 @@ name = "ltp"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "cc",
  "jsonrpsee",
  "lsp-types",
  "notify",

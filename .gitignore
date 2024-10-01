@@ -26,4 +26,6 @@ Cargo.lock
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
 
+vendor/*
+
 # End of https://www.toptal.com/developers/gitignore/api/rust
